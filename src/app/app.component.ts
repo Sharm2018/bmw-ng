@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  componentTitle = 'I am from component.ts file';
+  clickHandler() {
+    alert('I am clicked');
+  }
 }
